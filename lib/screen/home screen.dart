@@ -257,12 +257,20 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
                       child: Center(
                         child: AnimatedTextKit(
                           animatedTexts: [
-                            WavyAnimatedText("Memory Game",
+                            WavyAnimatedText("Memory Game เกมจดจำภาพ",
                                 speed: Duration(milliseconds: 450),
                                 textStyle: TextStyle(
                                   fontSize: 29,
                                   fontFamily: "Source",
                                   fontWeight: FontWeight.w600,
+                                  color: Color(0xffDD2A7B),
+                                )),
+                             WavyAnimatedText("ปรับปรุง โดย Leo",
+                                speed: Duration(milliseconds: 100),
+                                textStyle: TextStyle(
+                                  fontSize: 29,
+                                  fontFamily: "Source",
+                                  fontWeight: FontWeight.w300,
                                   color: Color(0xffDD2A7B),
                                 )),
                           ],
